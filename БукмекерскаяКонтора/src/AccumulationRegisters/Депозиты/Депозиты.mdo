@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a37a9ff-3dec-414c-bc5f-3e0dab8fb519">
+  <producedTypes>
+    <selectionType typeId="3560b846-57ff-4079-855a-57833fe9c695" valueTypeId="d8de3f86-7268-44a6-85f7-0c6c912cf8de"/>
+    <listType typeId="40df5246-2f4a-4598-8a5b-f616cfc3b543" valueTypeId="b6e2fd3d-1f1b-4184-8b9a-78abe175b73a"/>
+    <managerType typeId="80b89c13-15f2-44b3-a9a7-b405e5623888" valueTypeId="f72fd162-708c-4ef8-8f4b-c7523338e070"/>
+    <recordSetType typeId="8f46c45b-fdcd-4150-97dd-f165739d7d18" valueTypeId="09958806-0a8d-49ee-8764-8ad213ae3534"/>
+    <recordKeyType typeId="bfa9ebd4-bbc1-4e30-9cb6-6c305c668767" valueTypeId="1c52e0e3-bf88-41d1-be77-b396bc29b2cb"/>
+    <recordType typeId="a8f4af39-7baf-4818-a991-0f2fd14172d9" valueTypeId="898bcc44-8807-4e09-b2e3-0805e0a3c5ad"/>
+  </producedTypes>
+  <name>Депозиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Депозиты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8653931b-19a6-46cb-8e02-37e89cdf64bf">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="4603002f-9a66-4a78-84e8-f150e50a0761">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Игроки</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

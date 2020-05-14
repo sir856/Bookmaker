@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aca27e4c-2ac9-4b07-9115-3f78a273b9ba">
+  <producedTypes>
+    <objectType typeId="5788c638-cf1e-40e2-80ae-c4996283f3b7" valueTypeId="2982bc4c-302a-421b-b662-b4dfd4df1855"/>
+    <refType typeId="d4bb93cd-2fb9-44d2-84c4-88b95f90ab88" valueTypeId="0af2cf59-561d-472f-bdbf-8fdff038a650"/>
+    <selectionType typeId="3ec61b78-6b13-4370-abb6-787cc3ad06cd" valueTypeId="66b9b80a-8148-45ce-bdc8-f5d55bbb217c"/>
+    <listType typeId="0e4ac36f-1e5f-4156-95cf-9d5d005ce3a2" valueTypeId="6d8933dd-2588-4b2e-96cc-d33cd678586d"/>
+    <managerType typeId="d128a5dd-f90f-416e-ac2f-21a831dd6427" valueTypeId="40c639bd-c5b7-4c79-ba4b-8b1bd7be71c4"/>
+  </producedTypes>
+  <name>РезультатыМероприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты мероприятия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РезультатыМероприятия.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РезультатыМероприятия.Form.Записать</defaultObjectForm>
+  <registerRecords>AccumulationRegister.Депозиты</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3cbb955f-695b-4e82-8af7-0eb19e1fcb4d">
+    <name>Мероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Мероприятия</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fc5adc7d-6c8b-4934-bd93-a22250da2dfd">
+    <name>Записать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="237b8b1c-acb9-4ad9-899a-d374ef2af4f5">
+    <producedTypes>
+      <objectType typeId="ea306e28-885b-4375-afcd-8bce4095e2ce" valueTypeId="e4e72fb8-b6bd-4a90-a80a-00e9d956b1ba"/>
+      <rowType typeId="e297a798-c117-4adc-a3cc-5753659f5342" valueTypeId="36025873-e0b9-4867-8dba-083abb1d4164"/>
+    </producedTypes>
+    <name>Исходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходы</value>
+    </synonym>
+    <attributes uuid="7f960b93-ff87-45b8-8281-492ce83c8c93">
+      <name>Исход</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исход</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Исходы</types>
+      </type>
+      <choiceParameterLinks>
+        <name>Отбор.Мероприятие</name>
+        <field>Document.РезультатыМероприятия.Attribute.Мероприятие</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="03ab7b6a-1252-422a-b0d7-cc10b86d3059">
+      <name>Верный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Верный</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

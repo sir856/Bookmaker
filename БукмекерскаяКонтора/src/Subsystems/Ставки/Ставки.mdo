@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4872b5c1-024e-4ded-8c9e-c4fe24980390">
+  <name>Ставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Ставка</content>
+  <content>Document.РезультатыМероприятия</content>
+</mdclass:Subsystem>

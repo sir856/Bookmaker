@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba57c813-dd2a-46c7-815a-f4f3f3adbc4f">
+  <producedTypes>
+    <objectType typeId="e4751f7e-6b66-4cdb-8746-65723d8f3d62" valueTypeId="ef484362-9997-4ee8-9eac-0c46b02cc5e3"/>
+    <refType typeId="2495b05e-1a89-48cb-9458-de9b02159503" valueTypeId="99018098-d7fe-4c82-bf9c-d0e0f48b83bd"/>
+    <selectionType typeId="d8d7b988-8480-4d43-b2d7-706f23bca40a" valueTypeId="e15a1b52-a451-4690-a810-9076b9d80d92"/>
+    <listType typeId="4630d709-8b23-438f-891c-d81dcaf8c890" valueTypeId="56fa4393-14fc-42dc-bfe0-7a65e4961695"/>
+    <managerType typeId="bee18d7a-0909-45a6-a275-3e8ef1b574d9" valueTypeId="f987295a-fd0b-4bb0-b1c6-2347b79a8494"/>
+  </producedTypes>
+  <name>ПополнениеДепозита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пополнение депозита</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПополнениеДепозита.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Депозиты</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ed80a86c-b80e-40b4-b399-4960f6edea34">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Игроки</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba44b444-79dd-44b9-962d-e8e69faf5b45">
+    <name>СуммаПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма платежа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

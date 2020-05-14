@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64ee1085-dd71-4bc0-93ef-ce328e97e59d">
+  <producedTypes>
+    <objectType typeId="3d989b3a-6654-4248-9f80-6c9d21938b15" valueTypeId="553f1cb0-c974-4ab9-baca-a4ff4143cc68"/>
+    <managerType typeId="dbe1b03a-5842-44ea-8281-22386b216393" valueTypeId="68b40028-2177-4742-a891-dd74d5c786af"/>
+  </producedTypes>
+  <name>Депозит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Депозит</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Депозит.Template.Депозит</mainDataCompositionSchema>
+  <attributes uuid="15963d51-926f-4628-8597-213634d645be">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <type>
+      <types>CatalogObject.Игроки</types>
+    </type>
+  </attributes>
+  <templates uuid="2d95d116-3320-43a9-bb15-cbc6b52a66ff">
+    <name>Депозит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Депозит</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

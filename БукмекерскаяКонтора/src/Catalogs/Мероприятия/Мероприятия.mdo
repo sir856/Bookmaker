@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68a93228-b247-48b3-873d-987fbfddd7a2">
+  <producedTypes>
+    <objectType typeId="bb982760-fef9-4086-a19d-046f66b0768c" valueTypeId="2fbaea70-3bbe-440e-a40f-9f54572c20b5"/>
+    <refType typeId="14c6c3bd-5460-4bff-8771-553278ac2891" valueTypeId="33284eb2-b423-4acb-a40b-d25a9f865df4"/>
+    <selectionType typeId="3ea0a884-6d26-4d4b-aee9-a0d0e40835cc" valueTypeId="72335f64-dd45-4886-8dcc-4dbd63ac70f6"/>
+    <listType typeId="e34b9af3-6c99-4fbe-b0ab-fbdf1b56ebed" valueTypeId="9e09f6c0-f222-4309-9881-a047c55f800a"/>
+    <managerType typeId="5a035fd1-86d1-47d9-8c82-7dbe8821a3fc" valueTypeId="4a061dae-52c0-421d-b87c-722acf2e72f1"/>
+  </producedTypes>
+  <name>Мероприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мероприятия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Мероприятия.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3d1f7cd6-9791-4e62-8f0a-f9db2dcb5c5f">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3333ff07-2ac4-4cbf-ae46-aa224a9864ed">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

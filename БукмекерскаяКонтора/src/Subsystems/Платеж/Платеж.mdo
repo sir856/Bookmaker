@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aed60fd4-5052-4856-b0b5-9578efcbc6e6">
+  <name>Платеж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платеж</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПополнениеДепозита</content>
+  <content>AccumulationRegister.Депозиты</content>
+  <content>Document.СнятиеСДепозита</content>
+</mdclass:Subsystem>

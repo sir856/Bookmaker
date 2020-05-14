@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17b270cf-8e31-4603-8301-8cd3e3721d4c">
+  <name>БукмекерскаяКонтора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Букмекерская контора</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a4a575bc-383f-4a15-9859-61d341a6cf90"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="847ce892-a945-44c9-a208-f7d4a54861ed"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="44b3b4b7-e85a-40bc-848c-51f348ec014a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e9a791b1-2a6f-4782-8f72-565ddd293098"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="71c630c9-6784-4d65-b933-40fbfae6a52a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f13556c1-5d67-4f83-ac53-b2af510ec661"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="d97c96e4-f051-438a-8967-e2a5d07d7d8a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Ставки</subsystems>
+  <subsystems>Subsystem.Платеж</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <roles>Role.Игрок</roles>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Анонимный</roles>
+  <catalogs>Catalog.Игроки</catalogs>
+  <catalogs>Catalog.Мероприятия</catalogs>
+  <catalogs>Catalog.Исходы</catalogs>
+  <documents>Document.ПополнениеДепозита</documents>
+  <documents>Document.СнятиеСДепозита</documents>
+  <documents>Document.Ставка</documents>
+  <documents>Document.РезультатыМероприятия</documents>
+  <reports>Report.Депозит</reports>
+  <accumulationRegisters>AccumulationRegister.Депозиты</accumulationRegisters>
+</mdclass:Configuration>

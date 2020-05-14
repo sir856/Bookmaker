@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff15cbf9-5ebf-40eb-b6c8-9b159dca016e">
+  <producedTypes>
+    <objectType typeId="49bee5a6-93b9-4387-94d9-f3e7191bd29d" valueTypeId="71594a6b-4a35-40b0-9d7f-e08fbd06dace"/>
+    <refType typeId="4993d7e7-b787-496d-8a6d-c3f46b192b28" valueTypeId="b9b4a748-c6ef-4104-abe7-47969f2c9ea9"/>
+    <selectionType typeId="30aa0a74-a50d-4a84-be04-89cec24c2cef" valueTypeId="c5b01033-7140-48fd-8075-92cbc9537e6d"/>
+    <listType typeId="5544fedc-2abf-48cf-9230-76ea28f1490e" valueTypeId="dfde12e7-2d48-4f8f-a90d-61207a5e7acf"/>
+    <managerType typeId="43e8d897-065f-40e5-b22e-a2a7026e8ff4" valueTypeId="fbf47e5f-3606-4e3b-a02b-1abefbbb092c"/>
+  </producedTypes>
+  <name>Игроки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игроки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Игроки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>10</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Игроки.Form.Создать</defaultObjectForm>
+  <attributes uuid="ce5a346a-f039-44db-a4ff-a24030ef24f9">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb52b65e-3a09-49d4-8f6c-cd46f759eefb">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a0a86d1b-01b6-4c2f-8f16-d04fb21f846e">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="954af3ab-9fa1-438f-ac07-d8ea23e6dd13">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6fe31eca-f044-4f91-b9c9-4beaf348f2c5">
+    <name>Создать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

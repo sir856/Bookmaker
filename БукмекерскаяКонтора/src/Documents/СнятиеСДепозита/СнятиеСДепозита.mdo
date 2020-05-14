@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c37c010-534d-4705-b847-9a6e26d339dc">
+  <producedTypes>
+    <objectType typeId="99fb2e81-f7a8-4941-8078-1382bb380659" valueTypeId="1901d9be-6342-4b5d-89e1-9628890c0c3f"/>
+    <refType typeId="51097386-9139-452c-8c59-e8e4a0f02dcd" valueTypeId="77258b29-acad-4e31-a408-c60e90f88402"/>
+    <selectionType typeId="87bcb068-22c9-49ab-a8cb-12db278c155e" valueTypeId="3995bc03-64aa-4bcd-8b22-f1195069acba"/>
+    <listType typeId="60390e3d-48c7-48bb-be05-91fe1aeb1708" valueTypeId="8c0c5074-44c7-4f2a-84d3-cf5291afc4c0"/>
+    <managerType typeId="24b7c1b5-ce63-4baa-b7e6-ad2dca406aef" valueTypeId="d3db8dad-8e0c-4115-991e-ee97c0a5dc46"/>
+  </producedTypes>
+  <name>СнятиеСДепозита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Снятие с депозита</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СнятиеСДепозита.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Депозиты</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0bb4bada-695b-424e-9bb3-f07aca3a4125">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Игроки</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="92b756eb-dec8-49b1-88a5-e8d7a111f030">
+    <name>СуммаСнятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма снятия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
