@@ -29,15 +29,22 @@
 			<name>DataAdministration</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Administration</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.НСИ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.Игроки</name>
 		<right>
 			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -53,14 +60,7 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.НСИ</name>
-		<right>
-			<name>View</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>

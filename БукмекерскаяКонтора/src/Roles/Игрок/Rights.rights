@@ -41,29 +41,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Игроки</name>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Мероприятия</name>
 		<right>
 			<name>Read</name>
@@ -244,6 +221,85 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.НСИ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Игроки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<field>Ref</field>
+				<field>DataVersion</field>
+				<field>DeletionMark</field>
+				<field>Description</field>
+				<field>Пароль</field>
+				<field>Фамилия</field>
+				<field>Имя</field>
+				<field>Отчество</field>
+				<field>Predefined</field>
+				<field>PredefinedDataName</field>
+				<condition>где ссылка = &amp;Игрок</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.Ставка</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<field>Ref</field>
+				<field>DataVersion</field>
+				<field>DeletionMark</field>
+				<field>Number</field>
+				<field>Date</field>
+				<field>Posted</field>
+				<field>Игрок</field>
+				<field>Мероприятие</field>
+				<field>Исход</field>
+				<field>Сумма</field>
+				<condition>где Игрок = &amp;Игрок</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
 		</right>
 	</object>
 </Rights>

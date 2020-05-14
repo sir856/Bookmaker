@@ -32,6 +32,7 @@
   <subsystems>Subsystem.Ставки</subsystems>
   <subsystems>Subsystem.Платеж</subsystems>
   <subsystems>Subsystem.НСИ</subsystems>
+  <sessionParameters>SessionParameter.Игрок</sessionParameters>
   <roles>Role.Игрок</roles>
   <roles>Role.Администратор</roles>
   <roles>Role.Анонимный</roles>

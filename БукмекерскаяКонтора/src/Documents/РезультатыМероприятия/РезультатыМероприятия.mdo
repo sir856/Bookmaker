@@ -67,10 +67,6 @@
       <type>
         <types>CatalogRef.Исходы</types>
       </type>
-      <choiceParameterLinks>
-        <name>Отбор.Мероприятие</name>
-        <field>Document.РезультатыМероприятия.Attribute.Мероприятие</field>
-      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

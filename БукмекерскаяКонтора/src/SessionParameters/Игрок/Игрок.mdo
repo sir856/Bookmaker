@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db7b6bb4-5209-4bcc-87f0-6713d0cdcbb6">
+  <name>Игрок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игрок</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Игроки</types>
+  </type>
+</mdclass:SessionParameter>
