@@ -45,4 +45,5 @@
   <documents>Document.РезультатыМероприятия</documents>
   <reports>Report.Депозит</reports>
   <accumulationRegisters>AccumulationRegister.Депозиты</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Ставки</accumulationRegisters>
 </mdclass:Configuration>

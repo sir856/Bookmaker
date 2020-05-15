@@ -36,6 +36,20 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <resources uuid="d0994ff4-6da6-4f68-bf56-9903e280510d">
+    <name>СуммаРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма резерва</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
   <dimensions uuid="4603002f-9a66-4a78-84e8-f150e50a0761">
     <name>Игрок</name>
     <synonym>

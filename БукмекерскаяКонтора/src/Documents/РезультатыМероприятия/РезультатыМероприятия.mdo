@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РезультатыМероприятия.Form.Записать</defaultObjectForm>
   <registerRecords>AccumulationRegister.Депозиты</registerRecords>
+  <registerRecords>AccumulationRegister.Ставки</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3cbb955f-695b-4e82-8af7-0eb19e1fcb4d">

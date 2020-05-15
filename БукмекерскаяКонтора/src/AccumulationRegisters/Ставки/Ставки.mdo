@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73c011e7-8479-433e-9b2a-84fd1f08015a">
+  <producedTypes>
+    <selectionType typeId="dbb62aac-fd22-45dc-b917-f11efd9bcb44" valueTypeId="05ca3809-b2c9-4db1-9943-d756b850f83f"/>
+    <listType typeId="fa4b655f-4b31-4426-8eba-d6af7ab21801" valueTypeId="94f4dbed-1066-44dd-80b0-3fac51e5cc5a"/>
+    <managerType typeId="7737c4b3-a633-4b38-8917-6c7778327b4f" valueTypeId="09cde929-a2cd-4d03-85fe-75a75947d5e5"/>
+    <recordSetType typeId="c6dfc64f-02bb-45f3-b92f-a9ab7b3b5f7b" valueTypeId="c0180f60-4947-4b68-9618-fae04d6e229a"/>
+    <recordKeyType typeId="f09eb4cd-2963-4698-a352-2e3d8d1e3f70" valueTypeId="4de98ae2-f174-4f10-8019-8b40a01a59d7"/>
+    <recordType typeId="37e69f4f-fb6d-44c0-a98a-a5d1baa7b609" valueTypeId="0296f20d-3d77-48bc-b336-15275929de62"/>
+  </producedTypes>
+  <name>Ставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a84e45c9-e0e5-467f-8def-51811cbb9397">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="efd1dc95-7433-4e3e-9fe7-901bd6c11244">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Игроки</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d42976df-0ba0-419c-9127-928f771e9b27">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Исходы</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
