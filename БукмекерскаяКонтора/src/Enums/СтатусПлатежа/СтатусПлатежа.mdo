@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b2417d8-e9b7-408d-a792-e0fb96b81c53">
+  <producedTypes>
+    <refType typeId="42585098-90d0-425d-ba1f-31e1d384d483" valueTypeId="14d2da88-818e-497d-9745-6374a6234dc4"/>
+    <listType typeId="cd3b6d1e-4f5f-4478-80fe-c3e508bcc108" valueTypeId="7f3cc8b5-d853-410d-89af-9d9d281b063f"/>
+    <managerType typeId="5b08649b-44e6-4a08-85a3-0e15a1d76fae" valueTypeId="a9e00c5a-48d6-4e30-86be-9a82c6b1e8f7"/>
+  </producedTypes>
+  <name>СтатусПлатежа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус платежа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e466c115-9828-4891-a539-ce4f8c477487">
+    <name>НаРассмотрении</name>
+    <synonym>
+      <key>ru</key>
+      <value>На рассмотрении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c38f72b-0eca-4a33-bb1e-e297a293b9db">
+    <name>Принят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ebb7fa1-3f24-4be9-95ad-1d1bb753e679">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

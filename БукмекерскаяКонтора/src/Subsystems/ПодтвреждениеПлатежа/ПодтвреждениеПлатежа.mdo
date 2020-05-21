@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc9537e8-c6c6-4200-898e-a572ad30f916">
+  <name>ПодтвреждениеПлатежа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подтвреждение платежа</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПополнениеДепозита</content>
+  <content>Document.СнятиеСДепозита</content>
+</mdclass:Subsystem>

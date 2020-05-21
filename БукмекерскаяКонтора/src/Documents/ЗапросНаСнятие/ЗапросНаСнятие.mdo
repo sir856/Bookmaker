@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3123718c-1921-496b-87a0-3937e897d8a1">
+  <producedTypes>
+    <objectType typeId="3f235f9d-1b4e-494f-8b31-85ccb40946ef" valueTypeId="f577fda1-0a7b-40a8-9193-480d8c7c95a7"/>
+    <refType typeId="0cbe3643-3934-49c2-9dca-7c29f1930060" valueTypeId="ee62362f-eacc-4140-bebb-e715f41f4c80"/>
+    <selectionType typeId="357ebb04-02d0-47ef-9a5e-8c454ab7f4fd" valueTypeId="6f09a1db-f185-4d5b-a577-792f79b4b2d8"/>
+    <listType typeId="226f2ccb-30d8-4f3c-9887-200a887847da" valueTypeId="b7c32e32-feea-4f5b-a8b3-21636e216fb5"/>
+    <managerType typeId="23bfffcf-f664-4b8f-8250-f58c0678f436" valueTypeId="a57bbb47-47c5-4558-99ea-5709e2be8838"/>
+  </producedTypes>
+  <name>ЗапросНаСнятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрос на снятие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗапросНаСнятие.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗапросНаСнятие.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗапросНаСнятие.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ЗапросНаСнятие</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="04bb3647-75e7-4f4a-959a-3e1e534e5ad3">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Игроки</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2d9966d-19c7-4a61-a0a6-443bbdf9f190">
+    <name>СуммаСнятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма снятия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1065386e-2ce4-40d8-a250-0336b166fc01">
+    <name>СпособСнятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ снятия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособСнятия</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d5f1fbc-785e-4eee-ac73-95d277008c1f">
+    <name>НомерКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер карты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>16</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc277a6a-506d-4c54-9114-3fe708aa580d">
+    <name>НомерТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9a133aa-08c8-44ca-8174-68009236285c">
+    <name>СнятиеСДепозита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с депозита</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СнятиеСДепозита</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="25ae811a-076a-4152-b6f7-d7592b0b1223">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0e71c3b2-f868-4725-a771-5f61e7a1dab7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1617956-c9e4-40d4-afb2-4b140ff1f222">
+  <producedTypes>
+    <refType typeId="832c1239-e2d1-4eca-8bb6-4fac615f1b84" valueTypeId="67a26843-edbf-4cf9-a547-9ff1086eb5c4"/>
+    <listType typeId="63c80724-5bda-4de7-8955-19ae0b1a8138" valueTypeId="bf490d66-efa6-4286-b9f4-b015106f1340"/>
+    <managerType typeId="7b2bd671-0611-4ee6-a711-bbae4edf8030" valueTypeId="35d4128e-bb5c-43f8-9607-55a0e155c996"/>
+  </producedTypes>
+  <name>СпособСнятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ снятия</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="04992104-fc68-4d61-b4b8-7c21b6fce064">
+    <name>Карта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2dc80b54-3916-46b2-b695-40e26e8b9dab">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4edebb2-5006-4a1e-be2e-0d33d506f7e0">
+    <name>QIWI</name>
+    <synonym>
+      <key>ru</key>
+      <value>QIWI</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bc66080-4f29-4bd1-972d-5b0396a2a334">
+    <name>WebMoney</name>
+    <synonym>
+      <key>ru</key>
+      <value>WebMoney</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

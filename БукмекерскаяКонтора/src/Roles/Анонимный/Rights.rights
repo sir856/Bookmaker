@@ -33,6 +33,10 @@
 			<name>Administration</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>UpdateDataBaseConfiguration</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Subsystem.НСИ</name>
@@ -42,9 +46,20 @@
 		</right>
 	</object>
 	<object>
+		<name>SessionParameter.ИдентификаторСеанса</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Игроки</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -56,11 +71,11 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Update</name>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>

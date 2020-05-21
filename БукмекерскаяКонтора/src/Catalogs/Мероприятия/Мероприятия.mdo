@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68a93228-b247-48b3-873d-987fbfddd7a2">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e6ae402-63b6-4480-a52c-9954b7117d84">
   <producedTypes>
-    <objectType typeId="bb982760-fef9-4086-a19d-046f66b0768c" valueTypeId="2fbaea70-3bbe-440e-a40f-9f54572c20b5"/>
-    <refType typeId="14c6c3bd-5460-4bff-8771-553278ac2891" valueTypeId="33284eb2-b423-4acb-a40b-d25a9f865df4"/>
-    <selectionType typeId="3ea0a884-6d26-4d4b-aee9-a0d0e40835cc" valueTypeId="72335f64-dd45-4886-8dcc-4dbd63ac70f6"/>
-    <listType typeId="e34b9af3-6c99-4fbe-b0ab-fbdf1b56ebed" valueTypeId="9e09f6c0-f222-4309-9881-a047c55f800a"/>
-    <managerType typeId="5a035fd1-86d1-47d9-8c82-7dbe8821a3fc" valueTypeId="4a061dae-52c0-421d-b87c-722acf2e72f1"/>
+    <objectType typeId="2d4d49c3-5381-4269-a463-7f6ec5a05456" valueTypeId="9c09cbed-ad79-4060-b2ac-f5cebd6f7745"/>
+    <refType typeId="f12546c6-6eda-4e89-b786-69ce43781057" valueTypeId="0bf61af0-3b6f-4228-9372-e299bb070336"/>
+    <selectionType typeId="7497eac7-4046-43dd-910f-195566e25581" valueTypeId="a4f3e694-d334-40aa-8559-0abfc587edf3"/>
+    <listType typeId="9cf73db9-3451-4baf-af8c-d495905981cd" valueTypeId="30c434d5-8c4d-4eae-ad8c-1367bf62fd09"/>
+    <managerType typeId="57fe2ed7-aa53-426b-95d2-a344fdd91f33" valueTypeId="d78b041e-2df0-49c6-a309-50e13150930d"/>
   </producedTypes>
   <name>Мероприятия</name>
   <synonym>
@@ -13,14 +13,9 @@
     <value>Мероприятия</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Мероприятия.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.Мероприятия.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Description</name>
-    <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>Use</fullTextSearch>
-  </standardAttributes>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -35,20 +30,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="3d1f7cd6-9791-4e62-8f0a-f9db2dcb5c5f">
-    <name>Дата</name>
+  <defaultObjectForm>Catalog.Мероприятия.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f4410712-c03c-49b1-9f34-cc1cb95cc86d">
+    <name>ДатаНачала</name>
     <synonym>
       <key>ru</key>
-      <value>Дата</value>
+      <value>Дата начала</value>
     </synonym>
     <type>
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3333ff07-2ac4-4cbf-ae46-aa224a9864ed">
+  <attributes uuid="8ae67fca-c587-4ddd-ad42-3d8062d98f0c">
     <name>Описание</name>
     <synonym>
       <key>ru</key>
@@ -56,11 +53,30 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9bfe10b8-53ec-4ca2-864d-1ab62374df8a">
+    <name>Завершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2e8e7d30-dc84-4a85-bf64-1e925242514b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

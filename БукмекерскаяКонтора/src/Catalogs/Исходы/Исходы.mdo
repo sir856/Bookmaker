@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7671a37-721c-4cf3-bc67-273d72a4a799">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7671a37-721c-4cf3-bc67-273d72a4a799">
   <producedTypes>
     <objectType typeId="0fc9f51b-be86-4cde-83d4-61042e54b10c" valueTypeId="ff572169-edeb-46e1-abba-3fe5216334b7"/>
     <refType typeId="3bae45fc-a115-429f-bb94-9774089edfbe" valueTypeId="b7b2e929-1b21-4b94-a854-ea2e627325dc"/>
@@ -36,6 +36,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Исходы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Исходы.Form.ФормаСписка</defaultListForm>
   <attributes uuid="ab5655b1-0323-481c-95d3-b0f42ed82b55">
     <name>Мероприятие</name>
     <synonym>
@@ -45,6 +47,7 @@
     <type>
       <types>CatalogRef.Мероприятия</types>
     </type>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -56,9 +59,7 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -76,7 +77,43 @@
         <scale>2</scale>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="5cc00e62-d87c-4908-a7a8-272697ed96d4">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a9647315-8cf6-4661-a8d4-ef5cb8646d05">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d059c588-8f3e-4846-8d0e-140d8a91aa52">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

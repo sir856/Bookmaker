@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9930cd61-4a60-48c3-9d01-63f7a0797e51">
+  <producedTypes>
+    <refType typeId="ee0afd4f-c200-4681-96aa-19707a7d4933" valueTypeId="71739e32-ee5f-46ce-8415-d7d72e09ddbb"/>
+    <listType typeId="62b170b6-8c85-47b0-9921-ae03ec33cfc3" valueTypeId="3fcb2be7-78de-4513-87b4-3d85dcbafd1b"/>
+    <managerType typeId="a97a364d-1591-43b2-8f11-b308dcba6354" valueTypeId="4027e2f5-268f-4ea8-acc3-a43339aba715"/>
+  </producedTypes>
+  <name>СтатусСтавки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус ставки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="196ef49e-6329-4da5-a8d3-e9ae5e4cbce5">
+    <name>Записано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73b59662-7b04-4247-8755-05157aa242a4">
+    <name>Принято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95d1884f-838a-4ccc-9970-57f29d5e8a96">
+    <name>Выиграно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выиграно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a2e4339-1974-4e91-9068-e9b931abd21d">
+    <name>Проиграно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проиграно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

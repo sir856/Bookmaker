@@ -59,6 +59,7 @@
     <type>
       <types>CatalogRef.Игроки</types>
     </type>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>

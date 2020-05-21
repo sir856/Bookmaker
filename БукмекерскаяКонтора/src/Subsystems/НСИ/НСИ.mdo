@@ -8,7 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Игроки</content>
-  <content>Catalog.Мероприятия</content>
   <content>Report.Депозит</content>
   <content>Catalog.Исходы</content>
+  <content>Catalog.Мероприятия</content>
 </mdclass:Subsystem>

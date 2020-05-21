@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4907caf6-a8f6-44f1-97b2-1797b3fb8d4b">
+  <producedTypes>
+    <objectType typeId="c2c938c6-2838-4aa1-91ad-ce764484ce60" valueTypeId="75c02566-d6ed-4e96-b5c5-505f0effc2e6"/>
+    <refType typeId="1fc378b8-b86e-4436-9f50-a8467560105f" valueTypeId="ebcf81d1-dc96-4b26-91c1-a409549d17d7"/>
+    <selectionType typeId="1dc2f4ef-1530-44ef-a09e-a632af3b7900" valueTypeId="85221114-2094-43ea-ad7c-4db66aea506b"/>
+    <listType typeId="9d683414-96fe-4019-a0f6-db04fb5d3bab" valueTypeId="12cfc43d-7aa9-4ad5-90df-49b1faa3cea3"/>
+    <managerType typeId="c85d2fbd-fea4-4858-a612-626b4f8aaca4" valueTypeId="c9418554-7bc5-475e-9a84-370fc6021e77"/>
+  </producedTypes>
+  <name>ЗапросНаПополнение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрос на пополнение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗапросНаПополнение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗапросНаПополнение.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗапросНаПополнение.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ЗапросНаПополнение</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1180c17e-8312-401a-a03a-f5590d5e5d3e">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Игроки</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="abd38432-5b8b-4db0-91fe-a26759bce247">
+    <name>СуммаПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма платежа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99ff94c7-b53d-4a9d-a5f4-0df58a03329a">
+    <name>ПополнениеДепозита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пополнение депозита</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПополнениеДепозита</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="680e1dab-dbd9-4808-a34b-3c5c519ca2bb">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8c69c808-99ee-416d-bbac-1c56551d9803">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

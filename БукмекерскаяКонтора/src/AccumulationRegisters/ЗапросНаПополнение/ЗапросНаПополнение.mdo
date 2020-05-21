@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b64eb2aa-518a-43ff-a185-4f48b4b36f3a">
+  <producedTypes>
+    <selectionType typeId="11b13148-8541-46ab-9e92-4de22482c5dd" valueTypeId="d3db47e9-bed8-42a3-ab21-f53e48870c8d"/>
+    <listType typeId="3ca58c90-77f5-4b92-a090-44c0c7ee150c" valueTypeId="e823950b-8036-4c9f-b742-13b6c59944de"/>
+    <managerType typeId="9b2604b8-bfac-493e-adf5-097ac262c6d2" valueTypeId="777e2a5f-6ab0-4134-ac8c-b37d301c16bb"/>
+    <recordSetType typeId="1ecdae5e-73c3-4e83-ac45-61e9904ea9da" valueTypeId="c80d2d5f-9d4f-4ade-9bd0-3d2d27db176c"/>
+    <recordKeyType typeId="8abd152e-08a2-42e4-877f-0127a06c1794" valueTypeId="4b1899e6-8fe2-4323-8ebd-78f4a696539a"/>
+    <recordType typeId="6cbd5b29-c051-4474-ad9b-5e975e16a3c9" valueTypeId="e28386b4-099f-432d-830c-d432fadc33a7"/>
+  </producedTypes>
+  <name>ЗапросНаПополнение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрос на пополнение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="236e6006-bdfd-408f-9c48-382410b68431">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="bcd1a129-cda4-47bd-85bd-a7f477a4f6dd">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Игроки</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

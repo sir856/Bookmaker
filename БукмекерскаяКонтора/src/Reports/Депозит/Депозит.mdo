@@ -10,6 +10,7 @@
     <value>Депозит</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Депозит.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.Депозит.Template.Депозит</mainDataCompositionSchema>
   <attributes uuid="15963d51-926f-4628-8597-213634d645be">
     <name>Игрок</name>
@@ -21,6 +22,15 @@
       <types>CatalogObject.Игроки</types>
     </type>
   </attributes>
+  <forms uuid="fac36ae1-3297-481d-bb3b-dad7a0b3eaab">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="2d95d116-3320-43a9-bb15-cbc6b52a66ff">
     <name>Депозит</name>
     <synonym>

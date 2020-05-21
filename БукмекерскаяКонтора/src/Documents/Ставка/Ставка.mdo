@@ -23,6 +23,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Ставка.Form.Создать</defaultObjectForm>
+  <defaultListForm>Document.Ставка.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.Депозиты</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -35,6 +37,7 @@
     <type>
       <types>CatalogRef.Игроки</types>
     </type>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -47,6 +50,7 @@
     <type>
       <types>CatalogRef.Мероприятия</types>
     </type>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -59,10 +63,7 @@
     <type>
       <types>CatalogRef.Исходы</types>
     </type>
-    <choiceParameterLinks>
-      <name>Отбор.Мероприятие</name>
-      <field>Document.Ставка.Attribute.Мероприятие</field>
-    </choiceParameterLinks>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -77,9 +78,42 @@
       <numberQualifiers>
         <precision>9</precision>
         <scale>2</scale>
+        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="0ac62ee5-b07c-42d9-8655-6d019cb79915">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусСтавки</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="07ec0eef-4990-4683-be3c-98274bfe6615">
+    <name>Создать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8cf0b2b4-fa0b-45b7-9c73-366bfbdf7a28">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>

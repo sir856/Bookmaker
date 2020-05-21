@@ -23,35 +23,55 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СнятиеСДепозита.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.Депозиты</registerRecords>
+  <registerRecords>AccumulationRegister.ЗапросНаСнятие</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="0bb4bada-695b-424e-9bb3-f07aca3a4125">
-    <name>Игрок</name>
+  <attributes uuid="f82a1742-352c-472a-92bd-e36ed15bb226">
+    <name>ЗапросНаСнятие</name>
     <synonym>
       <key>ru</key>
-      <value>Игрок</value>
+      <value>Запрос на снятие</value>
     </synonym>
     <type>
-      <types>CatalogRef.Игроки</types>
+      <types>DocumentRef.ЗапросНаСнятие</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="92b756eb-dec8-49b1-88a5-e8d7a111f030">
-    <name>СуммаСнятия</name>
+  <attributes uuid="9ebbe275-3026-4ad6-aed9-9acda0b32c3d">
+    <name>Статус</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма снятия</value>
+      <value>Статус</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>9</precision>
-        <scale>2</scale>
-      </numberQualifiers>
+      <types>EnumRef.СтатусПлатежа</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9b2eac59-1d90-453e-bdc8-e2fd128c65d3">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b3f2f1da-daa0-483a-9504-8f1c337edd31">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>

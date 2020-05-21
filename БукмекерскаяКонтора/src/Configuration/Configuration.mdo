@@ -32,18 +32,31 @@
   <subsystems>Subsystem.Ставки</subsystems>
   <subsystems>Subsystem.Платеж</subsystems>
   <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.ПодтвреждениеПлатежа</subsystems>
   <sessionParameters>SessionParameter.Игрок</sessionParameters>
+  <sessionParameters>SessionParameter.ИдентификаторСеанса</sessionParameters>
+  <sessionParameters>SessionParameter.Логин</sessionParameters>
   <roles>Role.Игрок</roles>
   <roles>Role.Администратор</roles>
   <roles>Role.Анонимный</roles>
+  <roles>Role.ОтветсвенныйЗаВедениеМероприятий</roles>
+  <roles>Role.ОтветсвенныйЗаВедениеИсходов</roles>
+  <roles>Role.Бухгалтер</roles>
   <catalogs>Catalog.Игроки</catalogs>
-  <catalogs>Catalog.Мероприятия</catalogs>
   <catalogs>Catalog.Исходы</catalogs>
+  <catalogs>Catalog.Мероприятия</catalogs>
   <documents>Document.ПополнениеДепозита</documents>
   <documents>Document.СнятиеСДепозита</documents>
   <documents>Document.Ставка</documents>
   <documents>Document.РезультатыМероприятия</documents>
+  <documents>Document.ЗапросНаПополнение</documents>
+  <documents>Document.ЗапросНаСнятие</documents>
+  <enums>Enum.СпособСнятия</enums>
+  <enums>Enum.СтатусПлатежа</enums>
+  <enums>Enum.СтатусСтавки</enums>
   <reports>Report.Депозит</reports>
   <accumulationRegisters>AccumulationRegister.Депозиты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Ставки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗапросНаПополнение</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗапросНаСнятие</accumulationRegisters>
 </mdclass:Configuration>

@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.ПополнениеДепозита</content>
   <content>AccumulationRegister.Депозиты</content>
-  <content>Document.СнятиеСДепозита</content>
+  <content>Document.ЗапросНаПополнение</content>
+  <content>Document.ЗапросНаСнятие</content>
 </mdclass:Subsystem>
